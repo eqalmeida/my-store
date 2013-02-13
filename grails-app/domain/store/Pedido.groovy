@@ -15,6 +15,6 @@ class Pedido {
     }
 	
 	String toString(){
-		"Pedido N¼: ${this.id}"
+		"Pedido N.: ${this.id}"
 	}
 }

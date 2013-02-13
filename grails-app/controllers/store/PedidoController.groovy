@@ -43,7 +43,7 @@ class PedidoController {
         }
 
         flash.message = message(code: 'default.created.message', args: [message(code: 'pedido.label', default: 'Pedido'), pedidoInstance.id])
-        redirect(action: "show", id: pedidoInstance.id)
+        redirect(action: "create", controller: "ItemPedido", params:["pedido.id": pedidoInstance.id])
     }
 
     def show(Long id) {
