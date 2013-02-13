@@ -2,3 +2,5 @@
 grails-app/domain/.DS_Store
 
 grails-app/domain/store/.DS_Store
+
+target/classes
